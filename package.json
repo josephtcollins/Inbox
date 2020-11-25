@@ -1,0 +1,22 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://josephtcollins@github.com/josephtcollins/Inbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephtcollins/Inbox/issues"
+  },
+  "homepage": "https://github.com/josephtcollins/Inbox#readme",
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
+}
