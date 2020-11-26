@@ -30,9 +30,8 @@ describe('Inbox', () => {
   });
 
   it('can change the message', async () => {
-    const hash = await inbox.methods.setMessage('new message').send({ from: accounts[0] })
-    console.log(hash);
+    await inbox.methods.setMessage('new message').send({ from: accounts[0] })
     const message = await inbox.methods.message().call();
-    assert.strictEqual(message, 'bye')
+    assert.strictEqual(message, 'new message')
   });
 })
